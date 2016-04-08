@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79AAE9F31CB7669C001BC18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AAE9F21CB7669C001BC18F /* AppDelegate.swift */; };
+		79AAE9F51CB7669C001BC18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AAE9F41CB7669C001BC18F /* ViewController.swift */; };
+		79AAE9F81CB7669C001BC18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AAE9F61CB7669C001BC18F /* Main.storyboard */; };
+		79AAE9FA1CB7669C001BC18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AAE9F91CB7669C001BC18F /* Assets.xcassets */; };
+		79AAE9FD1CB7669C001BC18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AAE9FB1CB7669C001BC18F /* LaunchScreen.storyboard */; };
+		79AAEA081CB7669C001BC18F /* iOS_PassValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AAEA071CB7669C001BC18F /* iOS_PassValueTests.swift */; };
+		79AAEA131CB7669C001BC18F /* iOS_PassValueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AAEA121CB7669C001BC18F /* iOS_PassValueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79AAEA041CB7669C001BC18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AAE9E71CB7669C001BC18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AAE9EE1CB7669C001BC18F;
+			remoteInfo = iOS.PassValue;
+		};
+		79AAEA0F1CB7669C001BC18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AAE9E71CB7669C001BC18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AAE9EE1CB7669C001BC18F;
+			remoteInfo = iOS.PassValue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79AAE9EF1CB7669C001BC18F /* iOS.PassValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.PassValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AAE9F21CB7669C001BC18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79AAE9F41CB7669C001BC18F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79AAE9F71CB7669C001BC18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79AAE9F91CB7669C001BC18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79AAE9FC1CB7669C001BC18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79AAE9FE1CB7669C001BC18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AAEA031CB7669C001BC18F /* iOS.PassValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS.PassValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AAEA071CB7669C001BC18F /* iOS_PassValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_PassValueTests.swift; sourceTree = "<group>"; };
+		79AAEA091CB7669C001BC18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AAEA0E1CB7669C001BC18F /* iOS.PassValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS.PassValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AAEA121CB7669C001BC18F /* iOS_PassValueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_PassValueUITests.swift; sourceTree = "<group>"; };
+		79AAEA141CB7669C001BC18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79AAE9EC1CB7669C001BC18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AAEA001CB7669C001BC18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AAEA0B1CB7669C001BC18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79AAE9E61CB7669C001BC18F = {
+			isa = PBXGroup;
+			children = (
+				79AAE9F11CB7669C001BC18F /* iOS.PassValue */,
+				79AAEA061CB7669C001BC18F /* iOS.PassValueTests */,
+				79AAEA111CB7669C001BC18F /* iOS.PassValueUITests */,
+				79AAE9F01CB7669C001BC18F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79AAE9F01CB7669C001BC18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79AAE9EF1CB7669C001BC18F /* iOS.PassValue.app */,
+				79AAEA031CB7669C001BC18F /* iOS.PassValueTests.xctest */,
+				79AAEA0E1CB7669C001BC18F /* iOS.PassValueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79AAE9F11CB7669C001BC18F /* iOS.PassValue */ = {
+			isa = PBXGroup;
+			children = (
+				79AAE9F21CB7669C001BC18F /* AppDelegate.swift */,
+				79AAE9F41CB7669C001BC18F /* ViewController.swift */,
+				79AAE9F61CB7669C001BC18F /* Main.storyboard */,
+				79AAE9F91CB7669C001BC18F /* Assets.xcassets */,
+				79AAE9FB1CB7669C001BC18F /* LaunchScreen.storyboard */,
+				79AAE9FE1CB7669C001BC18F /* Info.plist */,
+			);
+			path = iOS.PassValue;
+			sourceTree = "<group>";
+		};
+		79AAEA061CB7669C001BC18F /* iOS.PassValueTests */ = {
+			isa = PBXGroup;
+			children = (
+				79AAEA071CB7669C001BC18F /* iOS_PassValueTests.swift */,
+				79AAEA091CB7669C001BC18F /* Info.plist */,
+			);
+			path = iOS.PassValueTests;
+			sourceTree = "<group>";
+		};
+		79AAEA111CB7669C001BC18F /* iOS.PassValueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79AAEA121CB7669C001BC18F /* iOS_PassValueUITests.swift */,
+				79AAEA141CB7669C001BC18F /* Info.plist */,
+			);
+			path = iOS.PassValueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79AAE9EE1CB7669C001BC18F /* iOS.PassValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AAEA171CB7669C001BC18F /* Build configuration list for PBXNativeTarget "iOS.PassValue" */;
+			buildPhases = (
+				79AAE9EB1CB7669C001BC18F /* Sources */,
+				79AAE9EC1CB7669C001BC18F /* Frameworks */,
+				79AAE9ED1CB7669C001BC18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS.PassValue;
+			productName = iOS.PassValue;
+			productReference = 79AAE9EF1CB7669C001BC18F /* iOS.PassValue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79AAEA021CB7669C001BC18F /* iOS.PassValueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AAEA1A1CB7669C001BC18F /* Build configuration list for PBXNativeTarget "iOS.PassValueTests" */;
+			buildPhases = (
+				79AAE9FF1CB7669C001BC18F /* Sources */,
+				79AAEA001CB7669C001BC18F /* Frameworks */,
+				79AAEA011CB7669C001BC18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AAEA051CB7669C001BC18F /* PBXTargetDependency */,
+			);
+			name = iOS.PassValueTests;
+			productName = iOS.PassValueTests;
+			productReference = 79AAEA031CB7669C001BC18F /* iOS.PassValueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79AAEA0D1CB7669C001BC18F /* iOS.PassValueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AAEA1D1CB7669C001BC18F /* Build configuration list for PBXNativeTarget "iOS.PassValueUITests" */;
+			buildPhases = (
+				79AAEA0A1CB7669C001BC18F /* Sources */,
+				79AAEA0B1CB7669C001BC18F /* Frameworks */,
+				79AAEA0C1CB7669C001BC18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AAEA101CB7669C001BC18F /* PBXTargetDependency */,
+			);
+			name = iOS.PassValueUITests;
+			productName = iOS.PassValueUITests;
+			productReference = 79AAEA0E1CB7669C001BC18F /* iOS.PassValueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79AAE9E71CB7669C001BC18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Raymond Ayala";
+				TargetAttributes = {
+					79AAE9EE1CB7669C001BC18F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7JDHAS5MGE;
+					};
+					79AAEA021CB7669C001BC18F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 79AAE9EE1CB7669C001BC18F;
+					};
+					79AAEA0D1CB7669C001BC18F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 79AAE9EE1CB7669C001BC18F;
+					};
+				};
+			};
+			buildConfigurationList = 79AAE9EA1CB7669C001BC18F /* Build configuration list for PBXProject "iOS.PassValue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79AAE9E61CB7669C001BC18F;
+			productRefGroup = 79AAE9F01CB7669C001BC18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79AAE9EE1CB7669C001BC18F /* iOS.PassValue */,
+				79AAEA021CB7669C001BC18F /* iOS.PassValueTests */,
+				79AAEA0D1CB7669C001BC18F /* iOS.PassValueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79AAE9ED1CB7669C001BC18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AAE9FD1CB7669C001BC18F /* LaunchScreen.storyboard in Resources */,
+				79AAE9FA1CB7669C001BC18F /* Assets.xcassets in Resources */,
+				79AAE9F81CB7669C001BC18F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AAEA011CB7669C001BC18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AAEA0C1CB7669C001BC18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79AAE9EB1CB7669C001BC18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AAE9F51CB7669C001BC18F /* ViewController.swift in Sources */,
+				79AAE9F31CB7669C001BC18F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AAE9FF1CB7669C001BC18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AAEA081CB7669C001BC18F /* iOS_PassValueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AAEA0A1CB7669C001BC18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AAEA131CB7669C001BC18F /* iOS_PassValueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79AAEA051CB7669C001BC18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AAE9EE1CB7669C001BC18F /* iOS.PassValue */;
+			targetProxy = 79AAEA041CB7669C001BC18F /* PBXContainerItemProxy */;
+		};
+		79AAEA101CB7669C001BC18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AAE9EE1CB7669C001BC18F /* iOS.PassValue */;
+			targetProxy = 79AAEA0F1CB7669C001BC18F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79AAE9F61CB7669C001BC18F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79AAE9F71CB7669C001BC18F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79AAE9FB1CB7669C001BC18F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79AAE9FC1CB7669C001BC18F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79AAEA151CB7669C001BC18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79AAEA161CB7669C001BC18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79AAEA181CB7669C001BC18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS.PassValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Scott.iOS-PassValue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79AAEA191CB7669C001BC18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS.PassValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Scott.iOS-PassValue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79AAEA1B1CB7669C001BC18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOS.PassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-PassValueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.PassValue.app/iOS.PassValue";
+			};
+			name = Debug;
+		};
+		79AAEA1C1CB7669C001BC18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOS.PassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-PassValueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.PassValue.app/iOS.PassValue";
+			};
+			name = Release;
+		};
+		79AAEA1E1CB7669C001BC18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOS.PassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-PassValueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOS.PassValue;
+			};
+			name = Debug;
+		};
+		79AAEA1F1CB7669C001BC18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOS.PassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-PassValueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOS.PassValue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79AAE9EA1CB7669C001BC18F /* Build configuration list for PBXProject "iOS.PassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AAEA151CB7669C001BC18F /* Debug */,
+				79AAEA161CB7669C001BC18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AAEA171CB7669C001BC18F /* Build configuration list for PBXNativeTarget "iOS.PassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AAEA181CB7669C001BC18F /* Debug */,
+				79AAEA191CB7669C001BC18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79AAEA1A1CB7669C001BC18F /* Build configuration list for PBXNativeTarget "iOS.PassValueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AAEA1B1CB7669C001BC18F /* Debug */,
+				79AAEA1C1CB7669C001BC18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79AAEA1D1CB7669C001BC18F /* Build configuration list for PBXNativeTarget "iOS.PassValueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AAEA1E1CB7669C001BC18F /* Debug */,
+				79AAEA1F1CB7669C001BC18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79AAE9E71CB7669C001BC18F /* Project object */;
+}
